@@ -1,0 +1,45 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #88d5e9;
+    font-family: Montserrat;
+}
+.container{
+    text-align: center;
+    border-radius: 4px;
+    background-color: white;
+    padding: 10px 20px;
+    flex: 0 0 80%;
+}
+#sendBtn{display: block;
+    padding: 8px 12px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.63);
+    color: black;
+    font-family: Montserrat;
+   margin: auto;
+   margin-top: 10px;
+}
+#sendBtn:hover{
+    color:white ;
+    background-color: black;
+    cursor: pointer;
+}
+input[type=text]{
+    border-radius: 2px;
+    outline: none;
+    border: 0.5px solid #88d5e9;
+    height: 25px;
+    width: 300px;
+    padding: 0.5rem;
+}
+input[type=text]:focus{
+    box-shadow: 0 0 5px #88d5e9;
+}
+#Messageout{
+    color: #88d5e9;
+}
